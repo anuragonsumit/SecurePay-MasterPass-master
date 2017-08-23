@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+	<id>SecurePay.MasterPass.LoadTests</id>
+	<version>0.0.0.0</version>
+	<authors>Webjet Marketing Pty Ltd</authors>
+	<owners>Webjet Marketing Pty Ltd</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>Secure Pay MasterPass load testing deployment package</description>
+	<releaseNotes />
+  </metadata>
+	<files>
+		<file src="..\Binaries\*.loadtest" />
+		<file src="..\Binaries\*.webtest" />
+		<file src="..\Local.testsettings" />
+		<file src="..\Binaries\SecurePay.MasterPass.PerformanceTest.dll" />
+		<file src="..\Binaries\Microsoft.VisualStudio.QualityTools.WebTestFramework.xml" />
+		<file src="..\Binaries\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll" />
+		
+		<file src="..\SecurePay.MasterPass.PerformanceTest\LoadTest2010.config" />
+		<file src="..\SecurePay.MasterPass.PerformanceTest\*.ps1" />
+		<file src="..\SecurePay.MasterPass.PerformanceTest\RunLoadTest.ps1" />
+	</files>
+</package>

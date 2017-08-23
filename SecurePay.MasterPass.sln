@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePay.MasterPass.PerformanceTest", "SecurePay.MasterPass.PerformanceTest\SecurePay.MasterPass.PerformanceTest.csproj", "{0A0F8381-3B82-43DB-9043-D8F0FA27BFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BB16204-AEC3-4F7F-9FA3-30553650F196}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePay.MasterPass", "SecurePay.MasterPass\SecurePay.MasterPass.csproj", "{E945E104-2687-4637-AE33-6EECBF157E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePay.MasterPass.IntegrationTests", "SecurePay.MasterPass.IntegrationTests\SecurePay.MasterPass.IntegrationTests.csproj", "{D45E9C97-324E-4C68-A337-55A5EF4D3FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePay.MasterPass.UnitTests", "SecurePay.MasterPass.UnitTests\SecurePay.MasterPass.UnitTests.csproj", "{74C7028F-6F22-4380-A2DE-5048FE82C2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A0F8381-3B82-43DB-9043-D8F0FA27BFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0F8381-3B82-43DB-9043-D8F0FA27BFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0F8381-3B82-43DB-9043-D8F0FA27BFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0F8381-3B82-43DB-9043-D8F0FA27BFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E945E104-2687-4637-AE33-6EECBF157E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E945E104-2687-4637-AE33-6EECBF157E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E945E104-2687-4637-AE33-6EECBF157E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E945E104-2687-4637-AE33-6EECBF157E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45E9C97-324E-4C68-A337-55A5EF4D3FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45E9C97-324E-4C68-A337-55A5EF4D3FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45E9C97-324E-4C68-A337-55A5EF4D3FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45E9C97-324E-4C68-A337-55A5EF4D3FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C7028F-6F22-4380-A2DE-5048FE82C2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C7028F-6F22-4380-A2DE-5048FE82C2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C7028F-6F22-4380-A2DE-5048FE82C2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C7028F-6F22-4380-A2DE-5048FE82C2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

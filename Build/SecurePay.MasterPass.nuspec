@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+	<id>SecurePay.MasterPass</id>
+	<version>0.0.0.0</version>
+	<authors>Webjet Marketing Pty Ltd</authors>
+	<owners>Webjet Marketing Pty Ltd</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>Secure Pay MasterPass deployment package</description>
+	<releaseNotes />
+  </metadata>
+	<files>
+		<!-- Required for Web App deployment packaging 
+		<file src="..\Binaries\_PublishedWebsites\SecurePay.MasterPass\**" target="WebApp" />		-->
+		
+		<!-- Required for IIS app deployment packaging -->
+		<file src="..\Binaries\_PublishedWebsites\SecurePay.MasterPass\**" target="IISApp" />
+		
+		<file src="..\Deployments\Deploy.ps1" target="Deploy.ps1" />
+		<file src="..\Deployments\Deploy.WebApp.ps1" />
+		<file src="..\Deployments\Deploy.WebVM.ps1" />
+		<file src="..\Deployments\Swap.WebApp.ps1" />  
+		<file src="..\Deployments\dodo.exe" />
+		
+		<file src="Tools\NuGet\**" target="Tools\Nuget" />
+	</files>
+</package>
